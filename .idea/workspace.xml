@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="914f6de5-5b1a-4706-abb0-8f5036613c4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Creational/abstractFactory/AbstractFactoryCar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/abstractFactory/BenzCar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/abstractFactory/BmwCar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/abstractFactory/CarInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/creational.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/TestAbstractFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/TestAbstractFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TestAbstractFactory.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +77,18 @@
       <recent name="C:\wamp64\www\DesignPattern\Creational" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.TestAbstractFactory.testBenzCarObject">
+    <configuration name="TestAbstractFactory.testBenzCarObject" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="TestAbstractFactory" file="$PROJECT_DIR$/Tests/TestAbstractFactory.php" method="testBenzCarObject" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestAbstractFactory.testBmwCarObject" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="TestAbstractFactory" file="$PROJECT_DIR$/Tests/TestAbstractFactory.php" method="testBmwCarObject" scope="Method" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.TestAbstractFactory.testBenzCarObject" />
         <item itemvalue="PHPUnit.TestAbstractFactory.testBmwCarObject" />
       </list>
     </recent_temporary>
@@ -104,7 +105,7 @@
       <workItem from="1650301753958" duration="2514000" />
       <workItem from="1650821004939" duration="4302000" />
       <workItem from="1650917585242" duration="119000" />
-      <workItem from="1656162082014" duration="1028000" />
+      <workItem from="1656162082014" duration="2911000" />
     </task>
     <servers />
   </component>
