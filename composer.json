@@ -1,0 +1,19 @@
+{
+    "name": "mahmoud-diab/design-pattern",
+    "type": "project",
+    "description": "Examples",
+    "authors": [
+        {
+            "name":"mahmoud Diab",
+            "email":"mahmoud.diab6067796@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Creational\\":  "Creational"
+        }
+    }
+}
