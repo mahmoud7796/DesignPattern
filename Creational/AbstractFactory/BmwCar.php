@@ -1,5 +1,5 @@
 <?php
-namespace Creational\abstractFactory;
+namespace Creational\AbstractFactory;
 
 
 class BmwCar implements CarInterface

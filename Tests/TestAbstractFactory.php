@@ -1,9 +1,9 @@
 <?php
 
 
-use Creational\abstractFactory\AbstractFactoryCar;
-use Creational\abstractFactory\BenzCar;
-use Creational\abstractFactory\BmwCar;
+use Creational\AbstractFactory\AbstractFactoryCar;
+use Creational\AbstractFactory\BenzCar;
+use Creational\AbstractFactory\BmwCar;
 use PHPUnit\Framework\TestCase;
 
 class TestAbstractFactory extends TestCase

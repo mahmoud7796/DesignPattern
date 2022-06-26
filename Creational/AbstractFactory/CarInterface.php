@@ -1,6 +1,6 @@
 <?php
 
-namespace Creational\abstractFactory;
+namespace Creational\AbstractFactory;
 
 interface CarInterface
 {

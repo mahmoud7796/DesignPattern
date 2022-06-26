@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="914f6de5-5b1a-4706-abb0-8f5036613c4a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Creational/Builder/BenzCarBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Builder/BmwCarBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Builder/CarBuilderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Builder/Models/BenzCar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Builder/Models/BmwCar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Builder/Models/Car.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Builder/ProduceCarBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/TestBuilder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/abstractFactory/AbstractFactoryCar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/AbstractFactory/AbstractFactoryCar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/abstractFactory/BenzCar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/AbstractFactory/BenzCar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/abstractFactory/BmwCar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/AbstractFactory/BmwCar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/abstractFactory/CarInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/AbstractFactory/CarInterface.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/TestAbstractFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TestAbstractFactory.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +30,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.0">
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
@@ -61,7 +81,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bin/php/php7.4.26/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tests" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -69,15 +89,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\MADA\DesignPattern\Tests" />
+      <recent name="F:\MADA\DesignPattern\Creational\Builder" />
+      <recent name="F:\MADA\DesignPattern\Creational\Builder\Models" />
       <recent name="C:\wamp64\www\DesignPattern\Creational\abstractFactory" />
       <recent name="C:\wamp64\www\DesignPattern\Creational" />
-      <recent name="C:\wamp64\www\DesignPattern" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\DesignPattern\Creational" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.TestAbstractFactory.testBenzCarObject">
+  <component name="RunManager" selected="PHPUnit.TestBuilder.testBmwCarBuilder">
+    <configuration name="TestAbstractFactory" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="TestAbstractFactory" file="$PROJECT_DIR$/Tests/TestAbstractFactory.php" scope="Class" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestAbstractFactory.testBenzCarObject" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="TestAbstractFactory" file="$PROJECT_DIR$/Tests/TestAbstractFactory.php" method="testBenzCarObject" scope="Method" />
       <method v="2" />
@@ -86,10 +112,16 @@
       <TestRunner class="TestAbstractFactory" file="$PROJECT_DIR$/Tests/TestAbstractFactory.php" method="testBmwCarObject" scope="Method" />
       <method v="2" />
     </configuration>
+    <configuration name="TestBuilder.testBmwCarBuilder" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="TestBuilder" file="$PROJECT_DIR$/Tests/TestBuilder.php" method="testBmwCarBuilder" scope="Method" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.TestAbstractFactory.testBenzCarObject" />
+        <item itemvalue="PHPUnit.TestBuilder.testBmwCarBuilder" />
+        <item itemvalue="PHPUnit.TestAbstractFactory" />
         <item itemvalue="PHPUnit.TestAbstractFactory.testBmwCarObject" />
+        <item itemvalue="PHPUnit.TestAbstractFactory.testBenzCarObject" />
       </list>
     </recent_temporary>
   </component>
@@ -106,6 +138,7 @@
       <workItem from="1650821004939" duration="4302000" />
       <workItem from="1650917585242" duration="119000" />
       <workItem from="1656162082014" duration="2911000" />
+      <workItem from="1656235071543" duration="5805000" />
     </task>
     <servers />
   </component>
