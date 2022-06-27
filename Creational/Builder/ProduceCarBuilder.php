@@ -23,3 +23,7 @@ class ProduceCarBuilder
     }
 
 }
+
+$bmwCar = new BmwCarBuilder();
+$createNewCar = new ProduceCarBuilder($bmwCar);
+var_dump($createNewCar->produceCar());
